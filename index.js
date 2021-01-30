@@ -6,7 +6,7 @@ inquirer
 .prompt([
     {
         type: 'input',
-        name: 'projectitle',
+        name: 'projecttitle',
         message: 'What is the title of this Project?',
     },
     {
@@ -63,22 +63,57 @@ inquirer
 
 
 
+// .then((response) => {
+//     const filename = `${response.projectitle.toLowerCase().split(' ').join('')}.json`;
+
+//     fs.writeFile(filename, JSON.stringify(response, null, '\t'), (err) =>
+//       err ? console.log(err) : console.log('Success!')
+//     );
+// });
+
+
+const generateREADME = (answers) =>
+`
+#Professional_README_Genetator
+
+Project Title: ${answers.projecttitle}
+
+Desscription: ${answers.description}
+
+Tables of Contents:
+
+* Installation Instructions
+* Usage Information
+* License Information
+* Contribution Guidelines
+* Test
+* Questions
+
+Installation Instructions:
+
+* To create initialize npm application and create package.json document enter this command: ${answers.createjson}
+
+* To download npm inquirer application enter in this command: ${answers.installation}
+
+Usage Information
+
+* This application requires the follow : ${answer.usageguidelines}
+
+License Information
+
+* Application License: ${answers.license}
 
 
 
 
 
+`
 
-
-
-
-
-
-
+// const README = generateREADME(answers);
+// fs.writeFileSync('README.md',md);
 
 // fs.writeFile('log.txt', "trying this out", (err) =>
 //   err ? console.error(err) : console.log('Success!')
-
 // );
 
 

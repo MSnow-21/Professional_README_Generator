@@ -1,0 +1,12 @@
+{
+	"projectitle": "projectone",
+	"description": "projectone readme",
+	"createjson": "npm init",
+	"installation": "npm i inquirer",
+	"usageguidelines": "commit twice",
+	"license": "GNU GPL v3.0",
+	"contributor": "commit twice",
+	"test": "npm test",
+	"github": "helloemail",
+	"email": "hellogithub"
+}
