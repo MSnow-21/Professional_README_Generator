@@ -43,6 +43,13 @@ inquirer
     },
     {
         type: 'input',
+        name: 'test',
+        message: 'What is entered npm command is entered to test a package?',
+        default: "npm test",
+
+    },
+    {
+        type: 'input',
         name: 'github',
         message: 'Please enter your e-mail',
     },
@@ -53,6 +60,15 @@ inquirer
     },
 
 ]);
+
+
+
+
+
+
+
+
+
 
 
 // fs.writeFile('log.txt', "trying this out", (err) =>
