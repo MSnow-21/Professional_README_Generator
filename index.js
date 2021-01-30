@@ -32,9 +32,9 @@ inquirer
         message: 'Please provide some usage guidelines and instructions for the user.',
     },
     {
-        type: 'choices',
+        type: 'list',
         name: 'license',
-        message: ['Apache Licence 2.0', 'Boose Software License 1.0', 'GNU GPL v3.0', 'ISC', 'MPL 2.0', 'NONE'],
+        choices: ['Apache Licence 2.0', 'Boose Software License 1.0', 'GNU GPL v3.0', 'ISC', 'MPL 2.0', 'NONE'],
     },
     {
         type: 'input',
@@ -60,6 +60,11 @@ inquirer
     },
 
 ]);
+
+
+
+
+
 
 
 
