@@ -12,21 +12,13 @@ inquirer
     {
         type: 'input',
         name: 'description',
-        message: 'Please enter a description of the project',
+        message: 'Please enter a description of the project here: ',
     },
-    // {
-    //     type: 'input',
-    //     name: 'tableofcontents',
-    //     message: 'this will probably not be entered
-    //     default: enter in table of contents content
-
-    // }
     {
         type: 'input',
         name: 'createjson',
         message: 'What command creates a package.json on npm?',
         default: 'npm init',
-
     },
     {
         type: 'input',
@@ -36,11 +28,11 @@ inquirer
     },
     {
         type: 'input',
-        name: 'usage',
-        message: 'Please provide some usage guidlines and instructions for the user.',
+        name: 'usageguidelines',
+        message: 'Please provide some usage guidelines and instructions for the user.',
     },
     {
-        type: 'checkbox',
+        type: 'choices',
         name: 'license',
         message: ['Apache Licence 2.0', 'Boose Software License 1.0', 'GNU GPL v3.0', 'ISC', 'MPL 2.0', 'NONE'],
     },
@@ -58,7 +50,7 @@ inquirer
         type: 'input',
         name: 'email',
         message: 'Please enter in your github username',
-    }
+    },
 
 ]);
 
