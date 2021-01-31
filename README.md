@@ -1,8 +1,8 @@
 #Professional_README_Generator
 
-Project Title: Professional_README_Generator
+Project Title: 1
 
-Desscription: This project utilizes node.js to allow a user to create a professional README.
+Desscription: 1
 
 Tables of Contents:
 
@@ -16,14 +16,14 @@ Tables of Contents:
 
 Installation Instructions:
 
-* To create initialize npm application and create package.json document enter this command: npm init
+* To create initialize npm application and create package.json document enter this command: 
 
 * To download npm inquirer application enter in this command: npm i inquirer
 
 
 Usage Information
 
-* This application requires the following usage guidelines : Please follow the installation and testing guidlines prior to running the index.js file
+* This application requires the following usage guidelines : 
 
 
 License Information
@@ -33,12 +33,12 @@ License Information
 
 Contributing Guidelines:
 
-* Please follow the installation and testing guidlines prior to running the index.js file
+* 
 
 
 Testing Instructions:
 
-Run : npm test to confirm if application is running properly.
+Run : 1 to confirm if application is running properly.
 
 
 Questions:
@@ -47,7 +47,7 @@ For any questions, here is my contact information:
 
 GitHub
 
-Profile: https://github.com/MSnow-21
+Profile: https://github.com/1
 
-Email: msnowcode@gmail.com
+Email: 1
 
