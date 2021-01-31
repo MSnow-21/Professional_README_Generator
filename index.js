@@ -53,8 +53,9 @@ For any questions, here is my contact information:
 
 GitHub
 
+Profile: https://github.com/${answers.github}
 
-
+Email: ${answers.email}
 
 `
 
