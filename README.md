@@ -4,14 +4,14 @@ Project Title: 1
 
 Desscription: 1
 
-#Table of Contents:
+Table of Contents:
 
-1. [Installation Instructions](#installation_instructions)
-2. [Usage Information](#usage_information)
-3. [License Information](#license_information)
-4. [Contribution Guidelines](#contribution_guidelines)
-5. [Testing Instructions](#testing_instructions)
-6. [Questions](#questions)
+* [Installation Instructions](#installation_instructions)
+* [Usage Information](#usage_information)
+* [License Information](#license_information)
+* [Contribution Guidelines](#contribution_guidelines)
+* [Testing Instructions](#testing_instructions)
+* [Questions](#questions)
 
 
 ## Installation_Instructions:
