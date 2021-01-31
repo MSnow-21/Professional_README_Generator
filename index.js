@@ -1,9 +1,65 @@
 const inquirer = require ('inquirer');
 const fs = require ('fs');
 
-inquirer
 
-.prompt([
+const generateREADME = (answers) =>
+
+`#Professional_README_Generator
+
+Project Title: ${answers.projecttitle}
+
+Desscription: ${answers.description}
+
+Tables of Contents:
+
+* Installation Instructions
+* Usage Information
+* License Information
+* Contribution Guidelines
+* Test
+* Questions
+
+
+Installation Instructions:
+
+* To create initialize npm application and create package.json document enter this command: ${answers.createjson}
+
+* To download npm inquirer application enter in this command: ${answers.installation}
+
+
+Usage Information
+
+* This application requires the following usage guidelines : ${answers.usageguidelines}
+
+
+License Information
+
+* This appication is covered under: ${answers.license}
+
+
+Contributing Guidelines:
+
+* ${answers.usageguidelines}
+
+
+Testing Instructions:
+
+Run : ${answers.test} to confirm if application is running properly.
+
+
+Questions:
+
+For any questions, here is my contact information:
+
+GitHub
+
+
+
+
+`
+
+// TODO: Create an array of questions for user input
+const questions = [
     {
         type: 'input',
         name: 'projecttitle',
@@ -39,7 +95,7 @@ inquirer
     {
         type: 'input',
         name: 'contributor',
-        message: 'Please provide contributors guidlines for this project.',
+        message: 'Please provide contributors guidelines for this project.',
     },
     {
         type: 'input',
@@ -59,75 +115,18 @@ inquirer
         message: 'Please enter in your github username',
     },
 
-]);
+];
 
-
-
-// .then((response) => {
-//     const filename = `${response.projectitle.toLowerCase().split(' ').join('')}.json`;
-
-//     fs.writeFile(filename, JSON.stringify(response, null, '\t'), (err) =>
-//       err ? console.log(err) : console.log('Success!')
-//     );
-// });
-
-
-const generateREADME = (answers) =>
-`
-#Professional_README_Genetator
-
-Project Title: ${answers.projecttitle}
-
-Desscription: ${answers.description}
-
-Tables of Contents:
-
-* Installation Instructions
-* Usage Information
-* License Information
-* Contribution Guidelines
-* Test
-* Questions
-
-Installation Instructions:
-
-* To create initialize npm application and create package.json document enter this command: ${answers.createjson}
-
-* To download npm inquirer application enter in this command: ${answers.installation}
-
-Usage Information
-
-* This application requires the follow : ${answer.usageguidelines}
-
-License Information
-
-* Application License: ${answers.license}
-
-
-
-
-
-`
-
-// const README = generateREADME(answers);
-// fs.writeFileSync('README.md',md);
-
-// fs.writeFile('log.txt', "trying this out", (err) =>
-//   err ? console.error(err) : console.log('Success!')
-// );
-
-
-
-// TODO: Include packages needed for this application
-
-// TODO: Create an array of questions for user input
-const questions = [];
-
-// TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
 
 // TODO: Create a function to initialize app
-function init() {}
+function init() {
+    inquirer
+    .prompt(questions)
+    .then((answers)=>{
+    const README = generateREADME(answers);
+    fs.writeFileSync('README.md', README);
+});
 
+}
 // Function call to initialize app
 init();
