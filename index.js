@@ -96,7 +96,7 @@ const questions = [
     {
         type: 'input',
         name: 'contributor',
-        message: 'Please provide contributors guidelines for this project.',
+        message: 'Please provide contributors guidelines for this project: ',
     },
     {
         type: 'input',
@@ -108,12 +108,12 @@ const questions = [
     {
         type: 'input',
         name: 'github',
-        message: 'Please enter your e-mail',
+        message: 'Please enter in your github username: ',
     },
     {
         type: 'input',
         name: 'email',
-        message: 'Please enter in your github username',
+        message: 'Please enter in your email address: ',
     },
 
 ];
