@@ -6,7 +6,7 @@ Desscription: 1
 
 #Table of Contents:
 
-1. [Installation-Instructions](#installation-instructions)
+1. [Installation Instructions](#installation_instructions)
 2. Usage Information
 3. License Information
 4. Contribution Guidelines
@@ -14,7 +14,7 @@ Desscription: 1
 6. Questions
 
 
-## Installation-Instructions:
+## Installation_Instructions:
 
 * To create initialize npm application and create package.json document enter this command: npm init
 
@@ -38,7 +38,7 @@ Contributing Guidelines:
 
 Testing Instructions:
 
-Run : 1 to confirm if application is running properly.
+Run : npm test to confirm if application is running properly.
 
 
 Questions:
@@ -47,7 +47,7 @@ For any questions, here is my contact information:
 
 GitHub
 
-Profile: https://github.com/
+Profile: https://github.com/1
 
-Email: 
+Email: 1
 
