@@ -12,7 +12,7 @@ Desscription: ${answers.description}
 
 Tables of Contents:
 
-* Installation Instructions
+* [Installation Instructions](#Installation Instructions)
 * Usage Information
 * License Information
 * Contribution Guidelines
@@ -20,7 +20,7 @@ Tables of Contents:
 * Questions
 
 
-Installation Instructions:
+##Installation Instructions:
 
 * To create initialize npm application and create package.json document enter this command: ${answers.createjson}
 

@@ -6,7 +6,7 @@ Desscription: 1
 
 Tables of Contents:
 
-* Installation Instructions
+* [Installation Instructions](#Installation Instructions)
 * Usage Information
 * License Information
 * Contribution Guidelines
@@ -14,16 +14,16 @@ Tables of Contents:
 * Questions
 
 
-Installation Instructions:
+##Installation Instructions:
 
-* To create initialize npm application and create package.json document enter this command: 
+* To create initialize npm application and create package.json document enter this command: npm init
 
 * To download npm inquirer application enter in this command: npm i inquirer
 
 
 Usage Information
 
-* This application requires the following usage guidelines : 
+* This application requires the following usage guidelines : 1
 
 
 License Information
@@ -33,7 +33,7 @@ License Information
 
 Contributing Guidelines:
 
-* 
+* 1
 
 
 Testing Instructions:
