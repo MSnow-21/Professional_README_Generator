@@ -12,42 +12,42 @@ Desscription: ${answers.description}
 
 #Table of Contents:
 
-1. [Installation Instructions](#installation instructions)
-2. Usage Information
-3. License Information
-4. Contribution Guidelines
-5. Test
-6. Questions
+1. [Installation Instructions](#installation_instructions)
+2. [Usage Information](#usage_information)
+3. [License Information](#license_information)
+4. [Contribution Guidelines](#contribution_guidelines)
+5. [Testing Instructions](#testing_instructions)
+6. [Questions](#questions)
 
 
-## Installation Instructions:
+## Installation_Instructions:
 
 * To create initialize npm application and create package.json document enter this command: ${answers.createjson}
 
 * To download npm inquirer application enter in this command: ${answers.installation}
 
 
-Usage Information
+## Usage_Information
 
 * This application requires the following usage guidelines : ${answers.usageguidelines}
 
 
-License Information
+## License_Information
 
 * This appication is covered under: ${answers.license}
 
 
-Contributing Guidelines:
+## Contribution_Guidelines:
 
 * ${answers.usageguidelines}
 
 
-Testing Instructions:
+## Testing Instructions:
 
 Run : ${answers.test} to confirm if application is running properly.
 
 
-Questions:
+## Questions:
 
 For any questions, here is my contact information:
 

@@ -6,42 +6,42 @@ Desscription: 1
 
 #Table of Contents:
 
-1. [Installation Instructions](#installation instructions)
-2. Usage Information
-3. License Information
-4. Contribution Guidelines
-5. Test
-6. Questions
+1. [Installation Instructions](#installation_instructions)
+2. [Usage Information](#usage_information)
+3. [License Information](#license_information)
+4. [Contribution Guidelines](#contribution_guidelines)
+5. [Testing Instructions](#testing_instructions)
+6. [Questions](#questions)
 
 
-## Installation Instructions:
+## Installation_Instructions:
 
-* To create initialize npm application and create package.json document enter this command: 1
+* To create initialize npm application and create package.json document enter this command: npm init
 
-* To download npm inquirer application enter in this command: 1
+* To download npm inquirer application enter in this command: npm i inquirer
 
 
-Usage Information
+## Usage_Information
 
 * This application requires the following usage guidelines : 1
 
 
-License Information
+## License_Information
 
 * This appication is covered under: Apache Licence 2.0
 
 
-Contributing Guidelines:
+## Contribution_Guidelines:
 
 * 1
 
 
-Testing Instructions:
+## Testing Instructions:
 
-Run : 1 to confirm if application is running properly.
+Run : npm test to confirm if application is running properly.
 
 
-Questions:
+## Questions:
 
 For any questions, here is my contact information:
 
