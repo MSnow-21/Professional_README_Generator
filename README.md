@@ -38,7 +38,7 @@ Contributing Guidelines:
 
 Testing Instructions:
 
-Run : npm test to confirm if application is running properly.
+Run : 1 to confirm if application is running properly.
 
 
 Questions:
@@ -47,7 +47,7 @@ For any questions, here is my contact information:
 
 GitHub
 
-Profile: https://github.com/1
+Profile: https://github.com/
 
-Email: 1
+Email: 
 
