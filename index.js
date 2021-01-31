@@ -10,17 +10,17 @@ Project Title: ${answers.projecttitle}
 
 Desscription: ${answers.description}
 
-Tables of Contents:
+#Table of Contents:
 
-* [Installation Instructions](#Installation Instructions)
-* Usage Information
-* License Information
-* Contribution Guidelines
-* Test
-* Questions
+1. [Installation-Instructions](#installation-instructions)
+2. Usage Information
+3. License Information
+4. Contribution Guidelines
+5. Test
+6. Questions
 
 
-##Installation Instructions:
+## Installation-Instructions:
 
 * To create initialize npm application and create package.json document enter this command: ${answers.createjson}
 

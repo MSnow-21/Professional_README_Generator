@@ -4,17 +4,17 @@ Project Title: 1
 
 Desscription: 1
 
-Tables of Contents:
+#Table of Contents:
 
-* [Installation Instructions](#Installation Instructions)
-* Usage Information
-* License Information
-* Contribution Guidelines
-* Test
-* Questions
+1. [Installation-Instructions](#installation-instructions)
+2. Usage Information
+3. License Information
+4. Contribution Guidelines
+5. Test
+6. Questions
 
 
-##Installation Instructions:
+## Installation-Instructions:
 
 * To create initialize npm application and create package.json document enter this command: npm init
 
@@ -38,7 +38,7 @@ Contributing Guidelines:
 
 Testing Instructions:
 
-Run : 1 to confirm if application is running properly.
+Run : npm test to confirm if application is running properly.
 
 
 Questions:
