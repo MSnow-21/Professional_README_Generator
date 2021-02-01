@@ -6,6 +6,8 @@ const generateREADME = (answers) =>
 
 `#Professional_README_Generator
 
+https://img.shields.io/github/license/MSnow-21/Professional_README_Generator?style=for-the-badge
+
 Project Title: ${answers.projecttitle}
 
 Desscription: ${answers.description}
