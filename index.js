@@ -6,11 +6,11 @@ const generateREADME = (answers) =>
 
 `#Professional_README_Generator
 
-https://img.shields.io/github/license/MSnow-21/Professional_README_Generator?style=for-the-badge
+[![](https://img.shields.io/badge/LICENSE-${answers.license}-<COLOR>)](https://shields.io/)
 
 Project Title: ${answers.projecttitle}
 
-Desscription: ${answers.description}
+Description: ${answers.description}
 
 Table of Contents:
 
@@ -46,7 +46,7 @@ Table of Contents:
 
 ## Testing Instructions:
 
-Run : ${answers.test} to confirm if application is running properly.
+Run ${answers.test} to confirm if application is running properly.
 
 
 ## Questions:
@@ -93,7 +93,8 @@ const questions = [
     {
         type: 'list',
         name: 'license',
-        choices: ['Apache Licence 2.0', 'Boose Software License 1.0', 'GNU GPL v3.0', 'ISC', 'MPL 2.0', 'NONE'],
+        message: 'What license would you like?',
+        choices: ['Apache2.0', 'bsl1.0', 'GNUGPLv3.0', 'ISC', 'MPL2.0', 'MIT', 'NONE'],
     },
     {
         type: 'input',
